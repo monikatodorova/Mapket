@@ -1,0 +1,1129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.59 e21c39fe">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2022-11-09T11:31:45Z" areas="2022-11-09T11:30:40Z"/>
+
+  <node id="309879651" lat="41.9919017" lon="21.4266878">
+    <tag k="name" v="Рамстор"/>
+    <tag k="name:en" v="Ramstore Supermarket"/>
+    <tag k="opening_hours" v="Mo-Su 08:00-22:00"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="310291064" lat="42.0091887" lon="21.3647780">
+    <tag k="amenity" v="marketplace"/>
+    <tag k="type" v="green_market"/>
+  </node>
+  <node id="357897267" lat="42.0141175" lon="21.4587963">
+    <tag k="addr:city" v="Скопје"/>
+    <tag k="addr:postcode" v="1000"/>
+    <tag k="int_name" v="Železara"/>
+    <tag k="is_in" v="Skopje"/>
+    <tag k="name" v="Железара"/>
+    <tag k="name:en" v="Zhelezara"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="362122773" lat="42.0076760" lon="21.3759187">
+    <tag k="int_name" v="Vlae"/>
+    <tag k="is_in" v="Скопје"/>
+    <tag k="name" v="Влае"/>
+    <tag k="name:en" v="Vlae"/>
+    <tag k="place" v="suburb"/>
+    <tag k="wikidata" v="Q12275532"/>
+  </node>
+  <node id="363578120" lat="42.0078542" lon="21.3606707">
+    <tag k="int_name" v="Gjorche Petrov"/>
+    <tag k="name" v="Ѓорче Петров"/>
+    <tag k="name:en" v="Gjorche Petrov"/>
+    <tag k="old_name" v="Ханриево"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="363579811" lat="42.0020914" lon="21.3717496">
+    <tag k="int_name" v="Hrom"/>
+    <tag k="is_in:city" v="Скопје"/>
+    <tag k="name" v="Хром"/>
+    <tag k="name:en" v="Hrom"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="364985725" lat="42.0068279" lon="21.3649348">
+    <tag k="created_by" v="Potlatch 0.10f"/>
+    <tag k="name" v="SP Planet"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="365294441" lat="42.0062279" lon="21.3862569">
+    <tag k="int_name" v="Karpoš 4"/>
+    <tag k="is_in:city" v="Скопје"/>
+    <tag k="name" v="Карпош 4"/>
+    <tag k="name:en" v="Karposh 4"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="365294488" lat="42.0051794" lon="21.3975978">
+    <tag k="int_name" v="Karpoš 3"/>
+    <tag k="is_in" v="Skopje"/>
+    <tag k="name" v="Карпош 3"/>
+    <tag k="name:en" v="Karposh 3"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="365294523" lat="42.0004037" lon="21.3970826">
+    <tag k="int_name" v="Taftalidže 1"/>
+    <tag k="is_in" v="Skopje"/>
+    <tag k="name" v="Тафталиџе 1"/>
+    <tag k="name:en" v="Taftalidzhe 1"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="367220118" lat="42.0019013" lon="21.3853654">
+    <tag k="int_name" v="Taftalidže 2"/>
+    <tag k="is_in:city" v="Скопје"/>
+    <tag k="name" v="Тафталиџе 2"/>
+    <tag k="name:en" v="Taftalidzhe 2"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="367220375" lat="41.9794265" lon="21.4396002">
+    <tag k="int_name" v="Kisela Voda"/>
+    <tag k="name" v="Кисела Вода"/>
+    <tag k="name:en" v="Kisela Voda"/>
+    <tag k="place" v="suburb"/>
+    <tag k="wikidata" v="Q20933978"/>
+    <tag k="wikipedia" v="en:Kisela Voda"/>
+  </node>
+  <node id="367222080" lat="41.9871768" lon="21.4173209">
+    <tag k="int_name" v="Vodno"/>
+    <tag k="is_in" v="Skopje"/>
+    <tag k="name" v="Водно"/>
+    <tag k="name:en" v="Vodno"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="367666001" lat="42.0063820" lon="21.3829246">
+    <tag k="operator" v="Tinex"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="367670887" lat="41.9940908" lon="21.3888721">
+    <tag k="int_name" v="Ždanec"/>
+    <tag k="is_in" v="Скопје"/>
+    <tag k="name" v="Жданец"/>
+    <tag k="name:en" v="Zhdanec"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="367863447" lat="42.0328736" lon="21.4451456">
+    <tag k="int_name" v="Butel 1"/>
+    <tag k="name" v="Бутел 1"/>
+    <tag k="name:en" v="Butel 1"/>
+    <tag k="name:sq" v="Butel 1"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="369397043" lat="42.0039160" lon="21.4650547">
+    <tag k="int_name" v="Avtokomanda"/>
+    <tag k="is_in" v="Скопје"/>
+    <tag k="name" v="Автокоманда"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="369780919" lat="41.9624078" lon="21.4454830">
+    <tag k="int_name" v="Pripor"/>
+    <tag k="is_in:city" v="Скопје"/>
+    <tag k="name" v="Припор"/>
+    <tag k="name:en" v="Pripor"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="369787629" lat="42.0065342" lon="21.5037563">
+    <tag k="int_name" v="Čento"/>
+    <tag k="is_in" v="Скопје"/>
+    <tag k="name" v="Ченто"/>
+    <tag k="name:en" v="Chento"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="370514799" lat="41.9953637" lon="21.4522844">
+    <tag k="int_name" v="Gazi Baba"/>
+    <tag k="name" v="Гази Баба"/>
+    <tag k="name:en" v="Gazi Baba"/>
+    <tag k="note" v="Moved original location to match boundaries"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="371348947" lat="42.0202774" lon="21.3553188">
+    <tag k="int_name" v="Dame Gruev"/>
+    <tag k="is_in" v="Скопје"/>
+    <tag k="name" v="Даме Груев"/>
+    <tag k="name:en" v="Dame Gruev"/>
+    <tag k="old_name" v="Геге"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="375645834" lat="42.0070862" lon="21.3634616">
+    <tag k="addr:housenumber" v="10"/>
+    <tag k="addr:postcode" v="1000"/>
+    <tag k="addr:street" v="Булевар Ѓорче Петров"/>
+    <tag k="name" v="Тинекс Ѓорче Петров"/>
+    <tag k="opening_hours" v="Mo-Sa 08:00-22:00; Su 08:00-20:00"/>
+    <tag k="operator" v="TINEX"/>
+    <tag k="phone" v="+389 2 2045680"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="website" v="http://tinex.com.mk"/>
+  </node>
+  <node id="416404340" lat="41.9993948" lon="21.4394478">
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="416417027" lat="41.9897519" lon="21.4548174">
+    <tag k="name" v="Тинекс"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="446388134" lat="41.9845218" lon="21.4688286">
+    <tag k="name" v="Веро"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="459669395" lat="41.9947502" lon="21.4345769">
+    <tag k="addr:city" v="Cкoпje"/>
+    <tag k="addr:country" v="MK"/>
+    <tag k="addr:housename" v="Gradski Trgovski Centar (GTC)"/>
+    <tag k="addr:postcode" v="1000"/>
+    <tag k="addr:street" v="Кеј 13 Ноември"/>
+    <tag k="addr:street:en" v="Kej 13 Noemvri"/>
+    <tag k="check_date:opening_hours" v="2021-03-04"/>
+    <tag k="level" v="-1"/>
+    <tag k="name" v="Веро 7"/>
+    <tag k="name:en" v="Vero 7"/>
+    <tag k="opening_hours" v="08:00-22:00"/>
+    <tag k="operator" v="Веро"/>
+    <tag k="phone" v="+389 2 3232640"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="website" v="https://vero.com.mk/Marketi/Vero7"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="470409274" lat="42.0000006" lon="21.3277721">
+    <tag k="int_name" v="Saraj"/>
+    <tag k="is_in:city" v="Скопје"/>
+    <tag k="name" v="Сарај"/>
+    <tag k="name:en" v="Saraj"/>
+    <tag k="name:sq" v="Saraj"/>
+    <tag k="place" v="suburb"/>
+    <tag k="population" v="25379"/>
+  </node>
+  <node id="470409501" lat="41.9997404" lon="21.3786262">
+    <tag k="int_name" v="Dolno Nerezi"/>
+    <tag k="is_in" v="Skopje"/>
+    <tag k="name" v="Долно Нерези"/>
+    <tag k="name:en" v="Dolno Nerezi"/>
+    <tag k="place" v="suburb"/>
+    <tag k="wikidata" v="Q12278958"/>
+  </node>
+  <node id="470409913" lat="42.0405453" lon="21.4235910">
+    <tag k="int_name" v="Šuto Orizari"/>
+    <tag k="name" v="Шуто Оризари"/>
+    <tag k="name:en" v="Shuto Orizari"/>
+    <tag k="name:fr" v="Chouto Orizari"/>
+    <tag k="place" v="suburb"/>
+    <tag k="population" v="0"/>
+  </node>
+  <node id="470410407" lat="42.0157430" lon="21.3853707">
+    <tag k="int_name" v="Zlokuḱani"/>
+    <tag k="is_in" v="Скопје"/>
+    <tag k="name" v="Злокуќани"/>
+    <tag k="name:en" v="Zlokukjani"/>
+    <tag k="place" v="suburb"/>
+    <tag k="wikidata" v="Q3408418"/>
+  </node>
+  <node id="470411576" lat="41.9926393" lon="21.3941996">
+    <tag k="int_name" v="Trnodol"/>
+    <tag k="is_in" v="Скопје"/>
+    <tag k="name" v="Трнодол"/>
+    <tag k="name:en" v="Trnodol"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="470599988" lat="41.9925332" lon="21.4370214">
+    <tag k="name" v="Tinex"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="470616644" lat="41.9903083" lon="21.4111760">
+    <tag k="name" v="Tinex"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="552589115" lat="41.9543521" lon="21.4846524">
+    <tag k="int_name" v="Pintija"/>
+    <tag k="is_in:city" v="Скопје"/>
+    <tag k="name" v="Пинтија"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="569629582" lat="41.9801204" lon="21.4752382">
+    <tag k="addr:city" v="Skopje"/>
+    <tag k="addr:housenumber" v="бб"/>
+    <tag k="addr:postcode" v="1000"/>
+    <tag k="addr:street" v="Булевар Видое Смилевски Бато"/>
+    <tag k="name" v="Рептил Маркет"/>
+    <tag k="name:en" v="Reptil Market"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="577538728" lat="42.0197651" lon="21.4350123">
+    <tag k="name" v="Prince"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="933483954" lat="41.9866616" lon="21.4675141">
+    <tag k="name" v="Жито Маркет"/>
+    <tag k="name:en" v="Zhito Market"/>
+    <tag k="name:mk" v="Жито Маркет"/>
+    <tag k="operator" v="Тедико"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="1263404485" lat="42.0046326" lon="21.5033827">
+    <tag k="name" v="Жито Маркет"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="1263404490" lat="42.0045010" lon="21.5038977">
+    <tag k="amenity" v="marketplace"/>
+    <tag k="name" v="Пазарче Ченто"/>
+  </node>
+  <node id="1381585160" lat="41.9813069" lon="21.4383256">
+    <tag k="name" v="Рептил"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="1609094328" lat="41.9798044" lon="21.4752182">
+    <tag k="addr:city" v="Cкoпje"/>
+    <tag k="addr:housenumber" v="бб"/>
+    <tag k="addr:postcode" v="1000"/>
+    <tag k="addr:street" v="Булевар Видое Смилевски Бато"/>
+    <tag k="name" v="КАМ Маркет"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="1609098405" lat="41.9794894" lon="21.4764231">
+    <tag k="name" v="Рамстор"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="1615844916" lat="42.0034268" lon="21.3989021">
+    <tag k="name" v="КОСМО Тинекс"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="1734513499" lat="42.0076504" lon="21.3396463">
+    <tag k="name" v="Жито маркет"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="1793209848" lat="41.9810056" lon="21.4323628">
+    <tag k="name" v="Кам Маркет"/>
+    <tag k="operator" v="КАМ"/>
+    <tag k="payment:coins" v="yes"/>
+    <tag k="payment:credit_cards" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:notes" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="payment:visa_electron" v="yes"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="1851607184" lat="41.9888820" lon="21.4282537">
+    <tag k="name" v="Кам Маркет"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="1860365652" lat="42.0026311" lon="21.4623331">
+    <tag k="name" v="КАМ Маркет"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="1860365681" lat="41.9930392" lon="21.4414652">
+    <tag k="addr:city" v="Cкoпje"/>
+    <tag k="addr:country" v="MK"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:postcode" v="1000"/>
+    <tag k="addr:street" v="Koco Racin"/>
+    <tag k="addr:suburb" v="Centar"/>
+    <tag k="image" v="http://www.vero.com.mk/Marketi/Images/9"/>
+    <tag k="name" v="Веро 9"/>
+    <tag k="name:en" v="Vero 9"/>
+    <tag k="opening_hours" v="09:00-22:00"/>
+    <tag k="operator" v="Веро"/>
+    <tag k="phone" v="+389 2 3088400"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="website" v="https://vero.com.mk/Marketi/Vero9"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="1926155820" lat="42.0037895" lon="21.4133001">
+    <tag k="int_name" v="Karpoš 1"/>
+    <tag k="name" v="Карпош 1"/>
+    <tag k="name:en" v="Karposh 1"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="1926166030" lat="42.0042459" lon="21.4079632">
+    <tag k="int_name" v="Karpoš 2"/>
+    <tag k="name" v="Карпош 2"/>
+    <tag k="name:en" v="Karposh 2"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="1926184840" lat="41.9936484" lon="21.4019729">
+    <tag k="int_name" v="Kozle"/>
+    <tag k="is_in" v="Скопје"/>
+    <tag k="name" v="Козле"/>
+    <tag k="name:en" v="Kozle"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="1926197124" lat="42.0240701" lon="21.4437274">
+    <tag k="int_name" v="Butel 2"/>
+    <tag k="is_in" v="Скопје"/>
+    <tag k="name" v="Бутел 2"/>
+    <tag k="name:en" v="Butel 2"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="1927911988" lat="42.0181438" lon="21.4399495">
+    <tag k="int_name" v="Čair"/>
+    <tag k="name" v="Чаир"/>
+    <tag k="name:en" v="Chair"/>
+    <tag k="name:sq" v="Çair"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="1928121264" lat="42.0087478" lon="21.3362906">
+    <tag k="int_name" v="Deksion"/>
+    <tag k="is_in" v="Скопје"/>
+    <tag k="name" v="Дексион"/>
+    <tag k="name:en" v="Dexion"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="1928170534" lat="42.0073570" lon="21.4364512">
+    <tag k="int_name" v="Duḱandžik"/>
+    <tag k="is_in" v="Скопје"/>
+    <tag k="name" v="Дуќанџик"/>
+    <tag k="name:en" v="Dukjandzhik"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="1929225848" lat="41.9934990" lon="21.4167955">
+    <tag k="int_name" v="Kapištec"/>
+    <tag k="is_in" v="Скопје"/>
+    <tag k="name" v="Капиштец"/>
+    <tag k="name:en" v="Kapishtec"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="1929253980" lat="41.9942467" lon="21.4302548">
+    <tag k="int_name" v="Centar"/>
+    <tag k="is_in" v="Skopje"/>
+    <tag k="name" v="Центар"/>
+    <tag k="name:en" v="Centar"/>
+    <tag k="name:lt" v="Centras"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="1929289631" lat="41.9843691" lon="21.4768374">
+    <tag k="int_name" v="Novo Lisiče"/>
+    <tag k="is_in" v="Скопје"/>
+    <tag k="name" v="Ново Лисиче"/>
+    <tag k="name:en" v="Novo Lisiche"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="1929313959" lat="41.9882568" lon="21.4681373">
+    <tag k="int_name" v="Jane Sandanski"/>
+    <tag k="is_in" v="Скопје"/>
+    <tag k="name" v="Јане Сандански"/>
+    <tag k="name:en" v="Jane Sandanski"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="1929313961" lat="41.9959917" lon="21.5086494">
+    <tag k="int_name" v="Hipodrom"/>
+    <tag k="name" v="Хиподром"/>
+    <tag k="name:en" v="Hipodrom"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="1929334016" lat="41.9954624" lon="21.4931731">
+    <tag k="int_name" v="Madžari"/>
+    <tag k="is_in" v="Скопје"/>
+    <tag k="name" v="Маџари"/>
+    <tag k="name:en" v="Madzhari"/>
+    <tag k="place" v="suburb"/>
+    <tag k="wikidata" v="Q12285546"/>
+  </node>
+  <node id="1929344337" lat="41.9941444" lon="21.4456513">
+    <tag k="int_name" v="Madžir Maalo"/>
+    <tag k="is_in" v="Скопје"/>
+    <tag k="name" v="Маџир Маало"/>
+    <tag k="name:en" v="Madzhir Maalo"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="1929360427" lat="41.9771510" lon="21.4306334">
+    <tag k="int_name" v="Pržino"/>
+    <tag k="is_in" v="Скопје"/>
+    <tag k="name" v="Пржино"/>
+    <tag k="name:en" v="Przhino"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="1929382156" lat="41.9872838" lon="21.4467896">
+    <tag k="int_name" v="Mičurin"/>
+    <tag k="is_in" v="Скопје"/>
+    <tag k="name" v="Мичурин"/>
+    <tag k="name:en" v="Michurin"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="1929418852" lat="41.9907191" lon="21.4515880">
+    <tag k="int_name" v="Ostrovo"/>
+    <tag k="is_in" v="Скопје"/>
+    <tag k="name" v="Острово"/>
+    <tag k="name:en" v="Ostrovo"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="1929421823" lat="41.9839106" lon="21.4289947">
+    <tag k="int_name" v="Crniče"/>
+    <tag k="is_in" v="Скопје"/>
+    <tag k="name" v="Црниче"/>
+    <tag k="name:en" v="Crniche"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="1929454146" lat="41.9754305" lon="21.4543163">
+    <tag k="int_name" v="11 Oktomvri"/>
+    <tag k="is_in" v="Скопје"/>
+    <tag k="name" v="11 Октомври"/>
+    <tag k="name:en" v="11 Oktomvri"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="1929466507" lat="41.9833650" lon="21.4370507">
+    <tag k="int_name" v="Cvetan Dimov"/>
+    <tag k="is_in" v="Скопје"/>
+    <tag k="name" v="Цветан Димов"/>
+    <tag k="name:en" v="Cvetan Dimov"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="2000505737" lat="42.0048803" lon="21.3922837">
+    <tag k="addr:city" v="Skopje"/>
+    <tag k="addr:housename" v="Skopje City Mall"/>
+    <tag k="addr:postcode" v="1000"/>
+    <tag k="addr:street" v="Љубљанска"/>
+    <tag k="addr:street:en" v="Ljubljanska"/>
+    <tag k="brand:wikidata" v="Q2130436"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Ramstore"/>
+    <tag k="name:sq" v="City Mall"/>
+    <tag k="opening_hours" v="08:00-22:00"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="website" v="http://ramstore.com.mk"/>
+  </node>
+  <node id="2174953768" lat="41.9973587" lon="21.4838210">
+    <tag k="addr:postcode" v="1000"/>
+    <tag k="addr:street" v="Перо Наков"/>
+    <tag k="internet_access" v="wlan"/>
+    <tag k="name" v="Електрометал"/>
+    <tag k="name:en" v="Elektrometal"/>
+    <tag k="opening_hours" v="Mo-Sa 08:00-21:00"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="website" v="http://www.elektroelement.com.mk"/>
+  </node>
+  <node id="2297036326" lat="42.0022775" lon="21.3762625">
+    <tag k="name" v="Tinex"/>
+    <tag k="operator" v="Tinex"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="2374211850" lat="41.9980584" lon="21.4942334">
+    <tag k="amenity" v="marketplace"/>
+  </node>
+  <node id="2395103183" lat="42.0197432" lon="21.3565810">
+    <tag k="name" v="Market Kiki"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="2882345348" lat="41.9748570" lon="21.4533122">
+    <tag k="int_name" v="Super Tineks"/>
+    <tag k="name" v="Супер Тинекс"/>
+    <tag k="name:en" v="Super Tinex"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="2882345397" lat="41.9844445" lon="21.4838698">
+    <tag k="name" v="Рамстор"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="2883369103" lat="41.9761138" lon="21.4326551">
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="2883877893" lat="41.9802602" lon="21.4733601">
+    <tag k="name" v="Реонски Центар Аеродром"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="2883877897" lat="41.9841887" lon="21.4588975">
+    <tag k="int_name" v="Aerodrom"/>
+    <tag k="name" v="Стар Аеродром"/>
+    <tag k="name:en" v="Old Aerodrom"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="2883877899" lat="41.9752112" lon="21.4908016">
+    <tag k="name" v="Горно Лисиче"/>
+    <tag k="name:en" v="Gorno Lisiche"/>
+    <tag k="place" v="suburb"/>
+    <tag k="wikidata" v="Q12277206"/>
+    <tag k="wikipedia" v="mk:Горно Лисиче"/>
+  </node>
+  <node id="2883879847" lat="41.9839638" lon="21.4649937">
+    <tag k="name" v="Пазарче"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="2884502076" lat="41.9720378" lon="21.4722684">
+    <tag k="name" v="ЗУР Маркет"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="3420296693" lat="42.0172471" lon="21.4335810">
+    <tag k="name" v="Топанско Поле"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="3428974493" lat="41.9933270" lon="21.4415560">
+    <tag k="name" v="DM"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="3506695094" lat="41.9938931" lon="21.4010606">
+    <tag k="addr:city" v="Скопје"/>
+    <tag k="addr:city:en" v="Skopje"/>
+    <tag k="addr:housenumber" v="53"/>
+    <tag k="addr:postcode" v="1000"/>
+    <tag k="addr:street" v="Козле"/>
+    <tag k="addr:street:en" v="Kosle"/>
+    <tag k="name" v="Кам маркет Козле"/>
+    <tag k="name:en" v="Kam Market Kozle"/>
+    <tag k="opening_hours" v="Mo-Sa 08:00-22:00"/>
+    <tag k="phone" v="+389 2 3085233"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="website" v="http://www.kam.com.mk"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="3614132047" lat="42.0050579" lon="21.3831193">
+    <tag k="addr:city" v="Скопје"/>
+    <tag k="addr:postcode" v="1000"/>
+    <tag k="addr:street" v="Булевар Партизански Одреди"/>
+    <tag k="name" v="Фреш маркет Бојди"/>
+    <tag k="organic" v="only"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="3635145515" lat="42.0017143" lon="21.3914204">
+    <tag k="addr:city" v="Скопје"/>
+    <tag k="addr:city:en" v="Skopje"/>
+    <tag k="addr:housenumber" v="бб"/>
+    <tag k="addr:postcode" v="1000"/>
+    <tag k="addr:street" v="Лондонска"/>
+    <tag k="addr:street:en" v="Londonska"/>
+    <tag k="name" v="Кам маркет Тафталиџе"/>
+    <tag k="name:en" v="Kam Market Taftalidze"/>
+    <tag k="opening_hours" v="Mo-Sa 07:30-21:30; Su 07:30-16:00"/>
+    <tag k="phone" v="+389 2 3074733"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="surveillance" v="indoor"/>
+    <tag k="surveillance:type" v="camera"/>
+    <tag k="website" v="http://www.kam.com.mk"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="3663767993" lat="42.0035081" lon="21.4152599">
+    <tag k="addr:city" v="Cкoпje"/>
+    <tag k="addr:postcode" v="1000"/>
+    <tag k="name" v="Рептил маркет"/>
+    <tag k="name:en" v="Reptil Market"/>
+    <tag k="opening_hours" v="07:00 - 21:30"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="3787515284" lat="41.9823773" lon="21.4403011">
+    <tag k="name" v="Веро"/>
+    <tag k="name:en" v="Vero"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="3932076509" lat="42.0248127" lon="21.4416628">
+    <tag k="name" v="Кам Маркет"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="4151705280" lat="41.9948735" lon="21.4207815">
+    <tag k="name" v="Веро 5"/>
+    <tag k="name:en" v="Vero 5"/>
+    <tag k="opening_hours" v="08:00-22:00; May 01 off"/>
+    <tag k="operator" v="Веро"/>
+    <tag k="phone" v="+389 2 3220244"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="website" v="https://vero.com.mk/Marketi/Vero5"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="4321893087" lat="41.9983625" lon="21.4233757">
+    <tag k="addr:housenumber" v="23"/>
+    <tag k="addr:postcode" v="1000"/>
+    <tag k="addr:street" v="Булевар Партизански Одреди"/>
+    <tag k="internet_access" v="wlan"/>
+    <tag k="name" v="Kapael Tobacco"/>
+    <tag k="opening_hours" v="Mo-Su 08:00-01:00"/>
+    <tag k="phone" v="+38926090240"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="website" v="http://www.facebook.com/tobaccokapael"/>
+  </node>
+  <node id="4355085491" lat="41.9807560" lon="21.4718709">
+    <tag k="addr:postcode" v="1000"/>
+    <tag k="name" v="ЗУР Маркет"/>
+    <tag k="name:mk" v="ЗУР маркет"/>
+    <tag k="opening_hours" v="Mo-Su 10:00-22:00"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="4355634895" lat="41.9772578" lon="21.4835479">
+    <tag k="addr:city" v="Скопје"/>
+    <tag k="addr:postcode" v="1000"/>
+    <tag k="addr:street" v="Тодор Чангов"/>
+    <tag k="name" v="Јовче"/>
+    <tag k="opening_hours" v="Mo-Su 07:00-22:00"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:coins" v="yes"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="4355637591" lat="41.9781331" lon="21.4851324">
+    <tag k="name" v="Бина"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="4455202893" lat="41.9854287" lon="21.4674517">
+    <tag k="addr:housenumber" v="79А"/>
+    <tag k="addr:postcode" v="1000"/>
+    <tag k="addr:street" v="Јане Сандански"/>
+    <tag k="name" v="Кам Маркет"/>
+    <tag k="name:en" v="Kam Market"/>
+    <tag k="name:mk" v="Кам Маркет"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="4484127494" lat="41.9760296" lon="21.4445010">
+    <tag k="addr:postcode" v="1000"/>
+    <tag k="name" v="Гранап"/>
+    <tag k="name:en" v="Granap"/>
+    <tag k="name:mk" v="Гранап"/>
+    <tag k="opening_hours" v="Mo-Su 08:00-22:00"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="4616754990" lat="41.9972875" lon="21.4085105">
+    <tag k="addr:postcode" v="1000"/>
+    <tag k="addr:street" v="Атинска"/>
+    <tag k="name" v="Рептил"/>
+    <tag k="name:en" v="Reptil"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="4710537461" lat="41.9896032" lon="21.4323528">
+    <tag k="level" v="0"/>
+    <tag k="name" v="TINEX"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="4732551922" lat="42.0005257" lon="21.4121462">
+    <tag k="name" v="Рептил"/>
+    <tag k="name:en" v="Reptil"/>
+    <tag k="name:mk" v="Рептил"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="4774073690" lat="41.9929149" lon="21.4199718">
+    <tag k="addr:postcode" v="1000"/>
+    <tag k="name" v="Тинекс"/>
+    <tag k="name:en" v="Tinex"/>
+    <tag k="name:mk" v="Tinex"/>
+    <tag k="opening_hours" v="Mo-Su 08:00-22:00"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="4889402965" lat="41.9867649" lon="21.4306785">
+    <tag k="name" v="Market Polo"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="4900357523" lat="42.0012340" lon="21.4168689">
+    <tag k="addr:city" v="Cкoпje"/>
+    <tag k="addr:housenumber" v="2"/>
+    <tag k="addr:postcode" v="1000"/>
+    <tag k="addr:street" v="Благој Давков"/>
+    <tag k="name" v="Рамстор Express Дебар Маало"/>
+    <tag k="name:en" v="Ramstore Express"/>
+    <tag k="name:fr" v="Ramstore"/>
+    <tag k="opening_hours" v="Mo-Sa 09:00-22:00"/>
+    <tag k="operator" v="Ramstore"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:coins" v="yes"/>
+    <tag k="payment:credit_cards" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="phone" v="+38923248217"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="website" v="http://ramstore.com.mk/"/>
+  </node>
+  <node id="5017111222" lat="42.0007316" lon="21.4175012">
+    <tag k="name" v="КАМ"/>
+    <tag k="opening_hours" v="Mo-Sa 07:30-22:00; Su 07:30-18:00"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="5040961621" lat="42.0007151" lon="21.4365241">
+    <tag k="name" v="Mak-Ultra"/>
+    <tag k="name:en" v="corner shop"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="5072814322" lat="41.9984456" lon="21.4757273">
+    <tag k="name" v="Stokomak Magacin"/>
+    <tag k="name:mk" v="Stokomak Magacin"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="5102511522" lat="41.9964763" lon="21.4276669">
+    <tag k="name" v="Тинекс центар 2"/>
+    <tag k="opening_hours" v="Mo-Sa 08:00-23:00; Su 08:00-20:00"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="5130533607" lat="41.9934245" lon="21.4286854">
+    <tag k="name" v="Деликатесен Тинекс"/>
+    <tag k="name:en" v="Delicatessen Tinex"/>
+    <tag k="opening_hours" v="Mo-Su 08:00-22:00"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="website" v="https://www.facebook.com/DelicatessenTinex/"/>
+  </node>
+  <node id="5155434323" lat="42.0236333" lon="21.4371996">
+    <tag k="addr:housenumber" v="10"/>
+    <tag k="addr:street" v="Боро Менков"/>
+    <tag k="name" v="Кипер Маркет"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="5155454122" lat="42.0239903" lon="21.4371972">
+    <tag k="addr:housenumber" v="10"/>
+    <tag k="addr:street" v="Боро Менков"/>
+    <tag k="name" v="Стоко Мак"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="5286112857" lat="42.0056203" lon="21.4111987">
+    <tag k="name" v="Granap Market"/>
+    <tag k="opening_hours" v="Mo-Su 08:00-22:00"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="5292130937" lat="41.9879358" lon="21.4558769">
+    <tag k="name" v="Ramstore"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="5323697760" lat="42.0079128" lon="21.3842555">
+    <tag k="name" v="Гранап"/>
+    <tag k="name:en" v="Granap"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="website" v="https://www.facebook.com/GranapMarket/"/>
+  </node>
+  <node id="5334911021" lat="42.0245187" lon="21.3506590">
+    <tag k="addr:street" v="Волковска"/>
+    <tag k="name" v="Кам"/>
+    <tag k="name:en" v="Kam"/>
+    <tag k="phone" v="+38923171747"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="website" v="http://kam.com.mk/"/>
+  </node>
+  <node id="5344777681" lat="42.0075655" lon="21.3704929">
+    <tag k="name" v="Reptil"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="5598215760" lat="42.0065872" lon="21.3930540">
+    <tag k="addr:street" v="Манапо"/>
+    <tag k="name" v="Vero"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="5829207731" lat="41.9817349" lon="21.4439477">
+    <tag k="name" v="KAM"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="5841674941" lat="41.9990831" lon="21.4220152">
+    <tag k="name" v="Tinex"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="5851203763" lat="41.9931980" lon="21.4159259">
+    <tag k="addr:city" v="Cкoпje"/>
+    <tag k="addr:housenumber" v="BB"/>
+    <tag k="addr:postcode" v="1000"/>
+    <tag k="addr:street" v="Васил Ѓоргов"/>
+    <tag k="name" v="Gramofon Vinyl Macedonia Makedonija"/>
+    <tag k="opening_hours" v="Mo-Sa 12:00-20:00"/>
+    <tag k="operator" v="ZEC Electronics"/>
+    <tag k="payment:cards" v="yes"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6054032908" lat="41.9887350" lon="21.4364415">
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6054048493" lat="41.9966577" lon="21.4199363">
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6054048690" lat="41.9984569" lon="21.4149954">
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6054048698" lat="42.0011184" lon="21.4259798">
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6054048708" lat="42.0035507" lon="21.3316820">
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6054048724" lat="41.9994766" lon="21.4177897">
+    <tag k="name" v="Маркет фратели"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6054048727" lat="42.0004371" lon="21.4126908">
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6054048729" lat="41.9967119" lon="21.4119031">
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6054049801" lat="41.9994288" lon="21.4129384">
+    <tag k="name:de" v="Vega"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6054049806" lat="41.9865793" lon="21.4781599">
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6054050091" lat="41.9980134" lon="21.3262394">
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6054050787" lat="41.9992364" lon="21.4187447">
+    <tag k="name" v="Ројал"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6058582666" lat="42.0113240" lon="21.5104508">
+    <tag k="addr:city" v="Скопје"/>
+    <tag k="addr:postcode" v="1000"/>
+    <tag k="addr:street" v="Методија Андонов Ченто"/>
+    <tag k="name" v="Рептил"/>
+    <tag k="opening_hours" v="Mo-Sa 07:00-22:00"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6145381754" lat="42.0067318" lon="21.3818169">
+    <tag k="name" v="Tinex"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6239561763" lat="42.0015735" lon="21.4200641">
+    <tag k="int_name" v="Karpoš 1"/>
+    <tag k="name" v="Дебар Маало"/>
+    <tag k="name:en" v="Debar Maalo"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="6277485880" lat="42.0310100" lon="21.4445186">
+    <tag k="amenity" v="marketplace"/>
+    <tag k="name" v="пент маркет"/>
+  </node>
+  <node id="6281683651" lat="42.0078991" lon="21.3340183">
+    <tag k="addr:street" v="4 Јули"/>
+    <tag k="name" v="Kipper"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6281683656" lat="42.0080177" lon="21.3349543">
+    <tag k="addr:street" v="4 Јули"/>
+    <tag k="fixme" v="name"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6281993282" lat="42.0129113" lon="21.4357477">
+    <tag k="addr:street" v="Џон Кенеди"/>
+    <tag k="amenity" v="marketplace"/>
+    <tag k="brand" v="Kipper"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6405264386" lat="41.9898103" lon="21.4691912">
+    <tag k="addr:postcode" v="1000"/>
+    <tag k="addr:street" v="Булевар Асном"/>
+    <tag k="name" v="M Market"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6655621425" lat="41.9978906" lon="21.4089683">
+    <tag k="name" v="Super Tinex"/>
+    <tag k="opening_hours" v="Mo-Su 08:00-22:00"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6814236609" lat="42.0046727" lon="21.4370024">
+    <tag k="name" v="Hajri Kompani"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6814246387" lat="42.0015821" lon="21.4189761">
+    <tag k="name" v="T market"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6814246717" lat="42.0010275" lon="21.4396745">
+    <tag k="name" v="Dm"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6815434687" lat="42.0244715" lon="21.4283826">
+    <tag k="name" v="Kit-Go"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6821158390" lat="41.9921840" lon="21.4277103">
+    <tag k="name" v="Healthy food by Zegin"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6827032735" lat="42.0041770" lon="21.4360158">
+    <tag k="name:en" v="Tools, household"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6827074190" lat="41.9994318" lon="21.4213409">
+    <tag k="name" v="Stokomak"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6827074191" lat="41.9989821" lon="21.4224806">
+    <tag k="name" v="Swisslion"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6827083485" lat="42.0050219" lon="21.4357643">
+    <tag k="name:en" v="Tools, household"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6827083586" lat="42.0063897" lon="21.4356940">
+    <tag k="name" v="Feki-Kom"/>
+    <tag k="name:en" v="Tools, household"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6830542485" lat="41.9910788" lon="21.4346069">
+    <tag k="name" v="Stokomak"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6875432285" lat="42.0046987" lon="21.4254128">
+    <tag k="name:en" v="Diem-GP Gevgelia"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6883647290" lat="41.9985490" lon="21.3274880">
+    <tag k="name" v="Рамстор"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="6913220785" lat="41.9954171" lon="21.5098008">
+    <tag k="addr:postcode" v="1000"/>
+    <tag k="addr:street" v="Париска Комуна"/>
+    <tag k="name" v="Стокомак"/>
+    <tag k="name:en" v="Stokomak"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="7527578987" lat="41.9811138" lon="21.4728380">
+    <tag k="addr:street" v="Реонски Центар Аеродром"/>
+    <tag k="name:en" v="CENTAR LISA"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="7827651855" lat="41.9760060" lon="21.4815508">
+    <tag k="addr:city" v="Скопје"/>
+    <tag k="addr:housenumber" v="29"/>
+    <tag k="addr:postcode" v="1000"/>
+    <tag k="addr:street" v="Тодор Чангов"/>
+    <tag k="name" v="Бобико ТП Колонијал"/>
+    <tag k="opening_hours" v="Mo-Su 07:00-22:00"/>
+    <tag k="payment:cash" v="yes"/>
+    <tag k="payment:coins" v="yes"/>
+    <tag k="payment:credit_cards" v="yes"/>
+    <tag k="payment:debit_cards" v="yes"/>
+    <tag k="payment:maestro" v="yes"/>
+    <tag k="payment:mastercard" v="yes"/>
+    <tag k="payment:visa" v="yes"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="7846557942" lat="42.0364195" lon="21.4464861">
+    <tag k="name" v="Стокомак"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="7846569770" lat="42.0372124" lon="21.4458128">
+    <tag k="name" v="Жито Маркет"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="8124609017" lat="42.0036961" lon="21.4672422">
+    <tag k="addr:postcode" v="1000"/>
+    <tag k="addr:street" v="Бапчор"/>
+    <tag k="name" v="Кит го"/>
+    <tag k="name:en" v="Kit go"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="8224118255" lat="42.0062363" lon="21.3524537">
+    <tag k="name" v="Оризари"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="8224118256" lat="41.9741292" lon="21.4716594">
+    <tag k="name" v="Лисиче"/>
+    <tag k="name:en" v="Lisiche"/>
+    <tag k="place" v="suburb"/>
+  </node>
+  <node id="8492059617" lat="41.9980345" lon="21.3981423">
+    <tag k="brand:wikidata" v="Q2130436"/>
+    <tag k="name" v="Ramstore"/>
+    <tag k="opening_hours" v="Mo-Sa 08:00-22:00"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="website" v="http://ramstore.com.mk/"/>
+  </node>
+  <node id="8492060119" lat="41.9987060" lon="21.3962482">
+    <tag k="name" v="Super TINEX"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="8646562196" lat="42.0054049" lon="21.4097719">
+    <tag k="addr:city" v="Скопје"/>
+    <tag k="addr:housenumber" v="204"/>
+    <tag k="addr:postcode" v="1000"/>
+    <tag k="addr:street" v="Орце Николов"/>
+    <tag k="name" v="La Noi - Mini Shop"/>
+    <tag k="phone" v="+38975285988"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="website" v="https://grouper.mk/market"/>
+  </node>
+  <node id="8868776220" lat="41.9855334" lon="21.4485408">
+    <tag k="name" v="КАМ Маркет"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="9120586796" lat="42.0069756" lon="21.5031425">
+    <tag k="amenity" v="marketplace"/>
+    <tag k="name" v="S Market"/>
+  </node>
+  <node id="9200215925" lat="42.0043927" lon="21.4371317">
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="9200215929" lat="42.0041371" lon="21.4346385">
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="9200216054" lat="42.0027247" lon="21.4412408">
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="9200216059" lat="41.9974123" lon="21.4222398">
+    <tag k="name" v="Reptil"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="9200216060" lat="41.9959161" lon="21.4180198">
+    <tag k="name" v="Step"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="9200216073" lat="41.9873148" lon="21.4776722">
+    <tag k="name" v="Alka-U B"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="9200216168" lat="42.0028928" lon="21.4402203">
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="9200216350" lat="42.0063807" lon="21.4336115">
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="9200216432" lat="42.0052062" lon="21.4163920">
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="9200216434" lat="41.9982953" lon="21.4169920">
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="9200216444" lat="41.9986691" lon="21.3272918">
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="9200216555" lat="41.9983774" lon="21.4152820">
+    <tag k="name" v="Sur"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="9200216560" lat="41.9971462" lon="21.4173822">
+    <tag k="name:de" v="Obst &amp; Gemüse"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="9244180287" lat="41.9843604" lon="21.4589135">
+    <tag k="addr:city" v="Cкoпje"/>
+    <tag k="addr:street" v="Васко Карангелески"/>
+    <tag k="name" v="КАМ маркет"/>
+    <tag k="opening_hours" v="Mo-Su 08:00-22:00"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="website" v="www.kam.com.mk"/>
+  </node>
+  <node id="9244195697" lat="41.9847560" lon="21.4555933">
+    <tag k="addr:city" v="Cкoпje"/>
+    <tag k="addr:street" v="Вангел Тодоровски"/>
+    <tag k="name" v="Стокомак"/>
+    <tag k="opening_hours" v="Mo-Su 07:30-21:00"/>
+    <tag k="operator" v="Стокомак"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="website" v="https://www.facebook.com/stokomak.diskont/"/>
+  </node>
+  <node id="9244235991" lat="41.9847803" lon="21.4510086">
+    <tag k="name" v="Рамстор"/>
+    <tag k="name:en" v="Ramstore"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="website" v="http://ramstore.com.mk/"/>
+  </node>
+  <node id="9244250664" lat="41.9828854" lon="21.4556365">
+    <tag k="addr:city" v="Cкoпje"/>
+    <tag k="addr:street" v="Васко Карангелески"/>
+    <tag k="name" v="ЗУР"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="website" v="http://zurmarket.mk/"/>
+  </node>
+  <node id="9244268507" lat="41.9888605" lon="21.4483803">
+    <tag k="name" v="Стокомак"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="website" v="https://www.facebook.com/stokomak.diskont/"/>
+  </node>
+  <node id="9244283951" lat="41.9887772" lon="21.4613330">
+    <tag k="addr:city" v="Cкoпje"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:street" v="Јане Сандански"/>
+    <tag k="name" v="Тинекс"/>
+    <tag k="name:en" v="Tinex"/>
+    <tag k="shop" v="supermarket"/>
+    <tag k="website" v="tinex.mk"/>
+  </node>
+  <node id="9438265417" lat="41.9928470" lon="21.4158463">
+    <tag k="name" v="Стикомак"/>
+    <tag k="name:en" v="Stokomak"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+  <node id="10074605718" lat="41.9812448" lon="21.4147315">
+    <tag k="addr:city" v="Cкoпje"/>
+    <tag k="addr:street" v="Македонская улица"/>
+    <tag k="name" v="Магнит"/>
+    <tag k="shop" v="supermarket"/>
+  </node>
+
+</osm>
