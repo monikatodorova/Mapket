@@ -1,3 +1,1 @@
-osmfilter map.osm --keep="place=suburb and name= and name!=null" --ignore-dependencies | osmconvert64 - --all-to-nodes --csv="@lat @lon name" --csv-headline --csv-separator="," -o="Oblasti.csv"
-
-osmfilter map.osm --keep="shop=supermarket and name= and name!=null" --keep="amenity=marketplace and name= and name!=null" | osmconvert64 - --all-to-nodes --csv="@id @lat @lon name addr:street opening_hours email operator website" --csv-headline --csv-separator="," -o="Marketi.csv"
+osmfilter map.osm --keep="shop=supermarket" --keep="amenity=marketplace" | osmconvert64 - --all-to-nodes --csv="@id @lat @lon name addr:street opening_hours email operator website" --csv-headline --csv-separator="," -o="MarketiInitial.csv"
