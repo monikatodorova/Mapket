@@ -1,0 +1,86 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" />
+    <script type="text/javascript" th:src="@{/webjars/jquery/jquery.min.js}"></script>
+    <script type="text/javascript" th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+    <link th:href="@{/css/style.css}" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-light">
+    <div class="container">
+        <!-- Navbar Brand -->
+        <a class="navbar-brand" href="/home">
+            <h3>Mapket</h3>
+        </a>
+
+        <!-- Navbar -->
+        <div class="collapsed navbar-collapse" id="navbarDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link activeLink" href="/markets">Маркети</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">За Апликацијата</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <div class="container">
+        <div class="markets">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Пронајди маркет</h4>
+                    <hr>
+                    <form th:method="GET" th:action="@{/markets}" >
+                        <div class="input-group">
+                            <input name="marketName" id="marketName" type="text" class="form-control" placeholder="Внеси име..." style="color: #495057;">
+                            <select name="municipalityId" class="form-control" style="color: #495057;">
+                                <option value="0">Избери општина...</option>
+                                <option th:each="municipality : ${municipalities}"
+                                        th:value="${municipality.getId()}" th:text="${municipality.getName()}"></option>
+                            </select>
+                            <div class="input-group-append">
+                                <input type="submit" class="btn btn-secondary" value="Пребарај"/>
+                            </div>
+                        </div>
+                    </form>
+
+                    <p th:if="${markets.isEmpty()}">Нема податоци за конкретното пребарување.</p>
+
+                    <div class="markets-box">
+                        <div class="scroll-markets">
+
+                            <div th:each="market : ${markets}">
+                                <div class="market">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <h5 th:if="${market} != null" th:text="${market.getName()}"></h5>
+                                            <p><i class="fa fa-location-arrow" aria-hidden="true"></i>
+                                                <span th:if="${market} != null" th:text="${market.getAddress()}"></span></p>
+                                            <p><i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                <span th:if="${market} != null" th:text="${market.getWorkingHours()}"></span></p>
+                                            <p><i class="fa fa-globe" aria-hidden="true"></i>
+                                                <span th:if="${market} != null" th:text="${market.getWebsite()}"></span></p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <a href="" class="align-middle">Прикажи</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8387.071543601818!2d21.427094380651575!3d41.99431794502751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135415a58c9aa2a5%3A0xb2ed88c260872020!2sSkopje!5e0!3m2!1sen!2smk!4v1670520616965!5m2!1sen!2smk" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
