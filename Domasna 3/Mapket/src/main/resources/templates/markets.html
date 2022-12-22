@@ -134,8 +134,10 @@
 
                                         </div>
                                         <div class="col-md-4">
-                                            <a href="" class="align-middle" th:if="${language} == 'mk'">Прикажи</a>
-                                            <a href="" class="align-middle" th:if="${language} == 'en'">Show</a>
+                                            <button class="button align-middle" th:if="${language} == 'mk'"
+                                                    th:attr="onclick=|show('${market}')|">Прикажи</button>
+                                            <button class="button align-middle" th:if="${language} == 'en'"
+                                                    th:attr="onclick=|show('${market}')|">Show</button>
                                         </div>
                                     </div>
                                 </div>
@@ -146,10 +148,55 @@
 
                 </div>
                 <div class="col-md-6">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8387.071543601818!2d21.427094380651575!3d41.99431794502751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135415a58c9aa2a5%3A0xb2ed88c260872020!2sSkopje!5e0!3m2!1sen!2smk!4v1670520616965!5m2!1sen!2smk" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    <div id="map" style="width:100%;height:450px;"></div>
+
                 </div>
             </div>
         </div>
     </div>
+
+<script th:inline="javascript">
+    let map;
+
+    function initMap() {
+        let options = {
+            zoom: 10,
+            center: {lat: 41.9919017, lng: 21.4266878}
+        }
+        map = new google.maps.Map(document.getElementById('map'), options);
+        let marker = new google.maps.Marker({
+            position: {lat: 41.9919017, lng: 21.4266878},
+            map: map
+        });
+    }
+
+    function show(market){
+        console.log(market);
+        parts = market.split(",");
+        coordinatesLon = parts[3].split("=")[1];
+        coordinatesLat = parts[4].split("=")[1];
+        console.log(coordinatesLon, coordinatesLat);
+
+        let options = {
+            zoom: 18,
+            center: {lat: parseFloat(coordinatesLat), lng: parseFloat(coordinatesLon)}
+        }
+        map = new google.maps.Map(document.getElementById('map'), options);
+        let marker = new google.maps.Marker({
+            position: {lat: parseFloat(coordinatesLat), lng: parseFloat(coordinatesLon)},
+            map: map
+        });
+    }
+
+    window.initMap = initMap;
+</script>
+
+<script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+        defer
+></script>
+
+
 </body>
 </html>

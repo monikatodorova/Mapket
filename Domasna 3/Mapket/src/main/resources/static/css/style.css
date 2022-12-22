@@ -104,23 +104,21 @@ body{
     align-items: center;
     justify-content: end;
 }
-.markets .market a {
-    background: darkgrey;
-    padding: 10px 15px;
+.markets .market .button {
+    background: #6c757d!important;
+    padding: .375rem .75rem;
     font-size: 15px;
-    color: #222;
-    border-radius: 5px;
+    color: #fff;
+    border-radius: .25rem;
     margin-right: 10px;
+    border:none;
 }
-.markets .market a:hover {
-    background: blue;
+.markets .market .button:hover {
+    background: #5a6268!important;
     text-decoration: none;
     color: #fff;
 }
 .markets .market .fa {
     color: gray;
     margin-right: 5px;
-}
-.markets iframe {
-    width: 100%;
 }
