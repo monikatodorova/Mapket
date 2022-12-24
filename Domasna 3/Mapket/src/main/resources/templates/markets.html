@@ -119,7 +119,13 @@
                                                 <p><i class="fa fa-clock-o" aria-hidden="true"></i>
                                                     <span th:if="${market} != null" th:text="${market.getWorkingHours()}"></span></p>
                                                 <p><i class="fa fa-globe" aria-hidden="true"></i>
-                                                    <span th:if="${market} != null" th:text="${market.getWebsite()}"></span></p>
+                                                    <span th:if="${market} != null">
+                                                        <a th:if="${market.getWebsite()} != '/'" th:href="${market.getWebsite()}">
+                                                            <th:block th:text="${market.getWebsite()}"/>
+                                                        </a>
+                                                        <th:block th:if="${market.getWebsite()} == '/'" th:text="${market.getWebsite()}"/>
+                                                    </span>
+                                                </p>
                                             </th:block>
 
                                             <th:block th:if="${language} == 'en'">
@@ -129,7 +135,13 @@
                                                 <p><i class="fa fa-clock-o" aria-hidden="true"></i>
                                                     <span th:if="${market} != null" th:text="${market.getWorkingHours()}"></span></p>
                                                 <p><i class="fa fa-globe" aria-hidden="true"></i>
-                                                    <span th:if="${market} != null" th:text="${market.getWebsite()}"></span></p>
+                                                    <span th:if="${market} != null">
+                                                        <a th:if="${market.getWebsite()} != '/'" th:href="${market.getWebsite()}">
+                                                            <th:block th:text="${market.getWebsite()}"/>
+                                                        </a>
+                                                        <th:block th:if="${market.getWebsite()} == '/'" th:text="${market.getWebsite()}"/>
+                                                    </span>
+                                                </p>
                                             </th:block>
 
                                         </div>
