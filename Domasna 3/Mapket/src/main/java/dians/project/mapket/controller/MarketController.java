@@ -19,7 +19,7 @@ public class MarketController {
         this.municipalityService = municipalityService;
     }
 
-    @GetMapping("/home")
+    @GetMapping(value = {"/home", "/"})
     public String homePage(@RequestParam(required = false) String marketName,
                            @RequestParam(required = false) String language,
                            Model model) {
