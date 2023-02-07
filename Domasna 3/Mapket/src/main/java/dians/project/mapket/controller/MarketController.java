@@ -29,7 +29,7 @@ public class MarketController {
             model.addAttribute("language", language);
         else
             model.addAttribute("language", "mk");
-        return "home";
+        return "index";
     }
 
     @GetMapping("/about")
