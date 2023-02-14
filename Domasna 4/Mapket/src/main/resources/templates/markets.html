@@ -1,0 +1,214 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" />
+    <script type="text/javascript" th:src="@{/webjars/jquery/jquery.min.js}"></script>
+    <script type="text/javascript" th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+    <link th:href="@{/css/style.css}" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-light">
+    <div class="container">
+        <!-- Navbar Brand -->
+        <a class="navbar-brand" th:if="${language}=='mk'" th:href="'/home?language=mk'">
+            <h3>Mapket</h3>
+        </a>
+        <a class="navbar-brand" th:if="${language}=='en'" th:href="'/home?language=en'">
+            <h3>Mapket</h3>
+        </a>
+
+        <!-- Navbar -->
+        <div class="collapsed navbar-collapse" id="navbarDefault">
+            <th:block th:if="${language} == 'mk'">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link activeLink" href="/markets?language=mk">Маркети</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about?language=mk">За Апликацијата</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/markets?language=mk">MK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/markets?language=en">EN</a>
+                    </li>
+                </ul>
+            </th:block>
+
+            <th:block th:if="${language} == 'en'">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link activeLink" href="/markets?language=en">Markets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about?language=en">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/markets?language=mk">MK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/markets?language=en">EN</a>
+                    </li>
+                </ul>
+            </th:block>
+        </div>
+    </div>
+</nav>
+    <div class="container">
+        <div class="markets">
+            <div class="row">
+                <div class="col-md-6">
+
+                    <h4 th:if="${language}=='mk'">Пронајди маркет</h4>
+                    <h4 th:if="${language}=='en'">Search markets</h4>
+                    <hr>
+
+                    <th:block th:if="${language} == 'mk'">
+                        <form th:method="GET" th:action="@{/markets}" >
+                            <div class="input-group">
+                                <input name="marketName" id="marketName" type="text" class="form-control"
+                                       placeholder="Внеси име..." style="color: #495057;">
+                                <select name="municipalityId" class="form-control" style="color: #495057;">
+                                    <option value="0">Избери општина...</option>
+                                    <option th:each="municipality : ${municipalities}"
+                                            th:value="${municipality.getId()}" th:text="${municipality.getName()}"></option>
+                                </select>
+                                <input type="hidden" name="language" th:value="${language}">
+                                <div class="input-group-append">
+                                    <input type="submit" class="btn btn-secondary" value="Пребарај"/>
+                                </div>
+                            </div>
+                        </form>
+                    </th:block>
+
+                    <th:block th:if="${language} == 'en'">
+                        <form th:method="GET" th:action="@{/markets}" >
+                            <div class="input-group">
+                                <input name="marketName" type="text" class="form-control"
+                                       placeholder="Enter name..." style="color: #495057;">
+                                <select name="municipalityId" class="form-control" style="color: #495057;">
+                                    <option value="0">Choose municipality...</option>
+                                    <option th:each="municipality : ${municipalities}"
+                                            th:value="${municipality.getId()}" th:text="${municipality.getNameEn()}"></option>
+                                </select>
+                                <input type="hidden" name="language" th:value="${language}">
+                                <div class="input-group-append">
+                                    <input type="submit" class="btn btn-secondary" value="Search"/>
+                                </div>
+                            </div>
+                        </form>
+                    </th:block>
+
+                    <p th:if="${markets.isEmpty() and language == 'mk'}">Нема податоци за конкретното пребарување.</p>
+                    <p th:if="${markets.isEmpty() and language == 'en'}">No data available.</p>
+
+                    <div class="markets-box">
+                        <div class="scroll-markets">
+
+                            <div th:each="market : ${markets}">
+                                <div class="market">
+                                    <div class="row">
+                                        <div class="col-md-8">
+
+                                            <th:block th:if="${language} == 'mk'">
+                                                <h5 th:if="${market} != null" th:text="${market.getName()}"></h5>
+                                                <p><i class="fa fa-location-arrow" aria-hidden="true"></i>
+                                                    <span th:if="${market} != null" th:text="${market.getAddress()}"></span></p>
+                                                <p><i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                    <span th:if="${market} != null" th:text="${market.getWorkingHours()}"></span></p>
+                                                <p><i class="fa fa-globe" aria-hidden="true"></i>
+                                                    <span th:if="${market} != null">
+                                                        <a th:if="${market.getWebsite()} != '/'" th:href="${market.getWebsite()}">
+                                                            <th:block th:text="${market.getWebsite()}"/>
+                                                        </a>
+                                                        <th:block th:if="${market.getWebsite()} == '/'" th:text="${market.getWebsite()}"/>
+                                                    </span>
+                                                </p>
+                                            </th:block>
+
+                                            <th:block th:if="${language} == 'en'">
+                                                <h5 th:if="${market} != null" th:text="${market.getNameEn()}"></h5>
+                                                <p><i class="fa fa-location-arrow" aria-hidden="true"></i>
+                                                    <span th:if="${market} != null" th:text="${market.getAddressEn()}"></span></p>
+                                                <p><i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                    <span th:if="${market} != null" th:text="${market.getWorkingHours()}"></span></p>
+                                                <p><i class="fa fa-globe" aria-hidden="true"></i>
+                                                    <span th:if="${market} != null">
+                                                        <a th:if="${market.getWebsite()} != '/'" th:href="${market.getWebsite()}">
+                                                            <th:block th:text="${market.getWebsite()}"/>
+                                                        </a>
+                                                        <th:block th:if="${market.getWebsite()} == '/'" th:text="${market.getWebsite()}"/>
+                                                    </span>
+                                                </p>
+                                            </th:block>
+
+                                        </div>
+                                        <div class="col-md-4">
+                                            <button class="button align-middle" th:if="${language} == 'mk'"
+                                                    th:attr="onclick=|show('${market}')|">Прикажи</button>
+                                            <button class="button align-middle" th:if="${language} == 'en'"
+                                                    th:attr="onclick=|show('${market}')|">Show</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+
+                    <div id="map" style="width:100%;height:450px;"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script th:inline="javascript">
+    let map;
+
+    function initMap() {
+        let options = {
+            zoom: 10,
+            center: {lat: 41.9919017, lng: 21.4266878}
+        }
+        map = new google.maps.Map(document.getElementById('map'), options);
+        let marker = new google.maps.Marker({
+            position: {lat: 41.9919017, lng: 21.4266878},
+            map: map
+        });
+    }
+
+    function show(market){
+        console.log(market);
+        parts = market.split(",");
+        coordinatesLon = parts[3].split("=")[1];
+        coordinatesLat = parts[4].split("=")[1];
+        console.log(coordinatesLon, coordinatesLat);
+
+        let options = {
+            zoom: 18,
+            center: {lat: parseFloat(coordinatesLat), lng: parseFloat(coordinatesLon)}
+        }
+        map = new google.maps.Map(document.getElementById('map'), options);
+        let marker = new google.maps.Marker({
+            position: {lat: parseFloat(coordinatesLat), lng: parseFloat(coordinatesLon)},
+            map: map
+        });
+    }
+
+    window.initMap = initMap;
+</script>
+
+<script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+        defer
+></script>
+
+
+</body>
+</html>
