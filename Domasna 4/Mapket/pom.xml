@@ -82,6 +82,7 @@
                 </configuration>
             </plugin>
         </plugins>
+        <finalName>mapket</finalName>
     </build>
 
 </project>
