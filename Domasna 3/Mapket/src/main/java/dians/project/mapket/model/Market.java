@@ -27,7 +27,7 @@ public class Market {
     public Municipality municipality;
 
     public Market(String name, double coordinatesLon, double coordinatesLat, String address,
-                  String workingHours, String website, String nameEn, String addressEn) {
+                  String workingHours, String website, String nameEn, String addressEn, Municipality municipality) {
         this.name = name;
         this.coordinatesLon = coordinatesLon;
         this.coordinatesLat = coordinatesLat;
@@ -36,6 +36,7 @@ public class Market {
         this.website = website;
         this.nameEn = nameEn;
         this.addressEn = addressEn;
+        this.municipality = municipality;
     }
 
     public Market() {
