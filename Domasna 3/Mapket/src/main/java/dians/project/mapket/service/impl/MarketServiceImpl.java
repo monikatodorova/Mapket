@@ -1,6 +1,7 @@
 package dians.project.mapket.service.impl;
 
 import dians.project.mapket.model.Market;
+import dians.project.mapket.model.Municipality;
 import dians.project.mapket.repository.MarketRepository;
 import dians.project.mapket.service.MarketService;
 import org.springframework.stereotype.Service;
@@ -45,9 +46,9 @@ public class MarketServiceImpl implements MarketService {
 
     @Override
     public Market save(String name, double coordinatesLon, double coordinatesLat, String address, String workingHours,
-                       String website, String nameEn, String addressEn) {
+                       String website, String nameEn, String addressEn, Municipality municipality) {
         return marketRepository.save(new Market(name, coordinatesLon, coordinatesLat, address,
-                workingHours, website, nameEn, addressEn));
+                workingHours, website, nameEn, addressEn, municipality));
     }
 
     @Override
